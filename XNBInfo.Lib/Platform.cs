@@ -1,4 +1,4 @@
-﻿namespace XNBInfo
+﻿namespace XNBInfo.Lib
 {
     public enum Platform
     {

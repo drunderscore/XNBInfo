@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XNBInfo
+namespace XNBInfo.Lib
 {
     [Flags]
     public enum Flags

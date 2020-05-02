@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "XNBInfo" )]
-[assembly: AssemblyDescription( "Describes the data contained in an XNB file." )]
+[assembly: AssemblyTitle( "XNBInfo.Lib" )]
+[assembly: AssemblyDescription( "Parses the XNB file format, and allows for recreation of the file." )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "XNBInfo" )]
+[assembly: AssemblyProduct( "XNBInfo.Lib" )]
 [assembly: AssemblyCopyright( "Copyright © James Puleo 2020" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid( "a7ae2a95-4201-4928-aff0-660dc5a2a18b" )]
+[assembly: Guid( "a4895c96-d8e3-4156-a859-f7c15c7bd1e3" )]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "1.1.0.0" )]
-[assembly: AssemblyFileVersion( "1.1.0.0" )]
+[assembly: AssemblyVersion( "1.0.0.0" )]
+[assembly: AssemblyFileVersion( "1.0.0.0" )]

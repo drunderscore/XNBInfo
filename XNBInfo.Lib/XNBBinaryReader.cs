@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace XNBInfo
+namespace XNBInfo.Lib
 {
-    public class XNBBinaryReader : BinaryReader
+    internal class XNBBinaryReader : BinaryReader
     {
         public XNBBinaryReader( Stream input ) : base( input ) { }
         public XNBBinaryReader( Stream input, Encoding encoding ) : base( input, encoding ) { }

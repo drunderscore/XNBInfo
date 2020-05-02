@@ -1,11 +1,11 @@
-﻿namespace XNBInfo
+﻿namespace XNBInfo.Lib
 {
     public class TypeReader
     {
         public string AssemblyName { get; }
         public int Version { get; }
 
-        public TypeReader( string name, int ver )
+        internal TypeReader( string name, int ver )
         {
             AssemblyName = name;
             Version = ver;
