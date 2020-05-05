@@ -58,6 +58,7 @@ namespace XNBInfo
                 Console.WriteLine( $"Version: {xnb.FormatVersion}" );
                 Console.WriteLine( $"Flags: {xnb.Flags}" );
                 Console.WriteLine( $"Size: {(DataSize)xnb.Size}" );
+                Console.WriteLine( $"Shared Resources: {xnb.SharedResourcesCount}" );
                 Console.WriteLine( $"Readers: {xnb.Readers.Length}" );
                 foreach ( var reader in xnb.Readers )
                     Console.WriteLine( reader );
